@@ -2,7 +2,7 @@ var tableData = data;
 
 var tBody = d3.select("tbody");
 
- //filter to add a row for each ufo sighting//
+ //function to add a row for each ufo sighting//
     function table(data) {
     data.forEach((ufoSighting) => {
         var row = tBody.append("tr");
@@ -18,7 +18,7 @@ var tBody = d3.select("tbody");
 
         console.log(tableData);
 
-//create a fitler to display date input//
+//create a button to fitler and display date input//
 
 var filter= d3.select("#filter-btn");
 
